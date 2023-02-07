@@ -45,21 +45,21 @@ function getBookData(arr) {
   abc.style = 'color: black;'
   function checkStatus(status) {
     if (status.textContent == 'Yes') {
-      status.style = 'background-color: rgb(156, 236, 122); color: black;'
+      status.style = 'background-color: rgb(156, 236, 122);'
       abc.onmouseover = function() {
-        status.style = 'background-color: rgb(85, 175, 85)'
+        status.style = 'background-color: rgb(85, 175, 85); color: white;'
       } 
       abc.onmouseout = function() {
-        status.style = 'background-color: rgb(156,236,122); color: black;'
+        status.style = 'background-color: rgb(156,236,122);'
       } 
     }
     else if (status.textContent == 'No') {
-      status.style = 'background-color: rgb(241, 170, 170); color: black;'
+      status.style = 'background-color: rgb(241, 170, 170);'
       abc.onmouseover = function() {
-        status.style = 'background-color: rgb(175, 85, 85)'
+        status.style = 'background-color: rgb(175, 85, 85); color: white;'
       } 
       abc.onmouseout = function() {
-        status.style = 'background-color: rgb(241, 170, 170); color: black;'
+        status.style = 'background-color: rgb(241, 170, 170);'
       } 
     }
   }
