@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="left-side">
+      <h2>Do you want to add a new book?</h2>
+      <form action="" method="get" id="form">
+        <div>
+          <label for="book-title">Book title</label>
+          <input type="text" name="book-title" id="book-title" required>
+        </div>
+        <div>
+          <label for="book-author">Book author</label>
+          <input type="text" name="book-author" id="book-author" required>
+        </div>
+        <div>
+          <label for="book-pages">Book pages</label>
+          <input type="text" name="book-pages" id="book-pages" pattern="\d{1,6}" required>
+        </div>
+        <div>
+          <p>Did you read the book?</p>
+              <div class="choice">
+                <div>
+                  <input type="radio" id="read" value="true" name="read" required>
+                  <label for="yes">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="read" value="false" name="read" required>
+                  <label for="no">No</label>
+                </div>
+              </div>
+        </div>
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </div>
+  
+   <div class="right-side">
+    <table>
+      <tr>
+        <th>Book</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Read</th>
+        <th>Delete</th>
+     </tr>
+    </table>
+   </div>
+  </div>
+</header>
+
+</body>
+<script src="./js/code.js"></script>
+</html> 
