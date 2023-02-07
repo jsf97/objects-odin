@@ -82,7 +82,9 @@ button {
 }
 
 table {
-  width: 100%;
+  width: 95%;
+  margin: auto;
+  margin-top: 5px;
 }
 
 tr{
@@ -97,6 +99,7 @@ td {
 .read {
   text-align: center;
   padding-right: 5px;
+  cursor: pointer;
 }
 
 .delete {
