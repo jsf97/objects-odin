@@ -136,7 +136,9 @@ td {
   height: 50px;
   display: flex;
   align-items: center;
-  background-color: #d3c72143;
+  background-color: #d3c72126;
+  margin: 2px 0;
+  box-shadow: 0px 0px 2px black;
 }
 
 .read {
